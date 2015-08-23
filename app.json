@@ -10,6 +10,9 @@
   "repository": "https://github.com/feliperyan/wagtail_button_heroku",
   "logo": "https://wagtail.io/static/img/wagtail.svg",
   "success_url": "/",
+  "scripts": {
+    "postdeploy": "python manage.py migrate;"
+  },
   "env": {
     "DJANGO_SETTINGS_MODULE": {
       "description": "This points Heroku to prod",
