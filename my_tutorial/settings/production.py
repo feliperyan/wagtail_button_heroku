@@ -22,7 +22,7 @@ AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 
 # --- Using whiteboise for Static Files ---
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
+COMPRESS_ENABLED = True
 COMPRESS_OFFLINE = True
 COMPRESS_CSS_FILTERS = [
     'compressor.filters.css_default.CssAbsoluteFilter',
