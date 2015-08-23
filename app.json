@@ -30,6 +30,10 @@
     "AWS_SECRET_ACCESS_KEY": {
       "description": "AWS S3 access key",
       "value": "replace_with_key"
+    },
+    "DISABLE_COLLECTSTATIC": {
+      "description": "the hooks should take care of this",
+      "value": "1"
     }
   },
   "image": "heroku/python",
