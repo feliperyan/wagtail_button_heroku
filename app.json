@@ -13,7 +13,7 @@
   "env": {
     "DJANGO_SETTINGS_MODULE": {
       "description": "This points Heroku to prod",
-      "value": "my_template.settings.production"
+      "value": "my_tutorial.settings.production"
     },
     "SECRET_KEY": {
       "description": "Django secret key",
