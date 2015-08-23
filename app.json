@@ -7,12 +7,9 @@
     "Wagtail"
   ],
   "website": "www.feliperyan.com",
-  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  "repository": "https://github.com/feliperyan/wagtail_button_heroku",
   "logo": "https://wagtail.io/static/img/wagtail.svg",
   "success_url": "/",
-  "scripts": {
-  "postdeploy": "bundle exec rake bootstrap"
-  },
   "env": {
     "DJANGO_SETTINGS_MODULE": {
       "description": "This points Heroku to prod",
@@ -24,15 +21,15 @@
     },
     "AWS_BUCKET": {
       "description": "AWS S3 bucket name",
-      "value": "replace_with_bucket_name"        
+      "value": "replace_with_bucket_name"
     },
-    "AWS_ACCESS_KEY_ID":{
+    "AWS_ACCESS_KEY_ID": {
       "description": "AWS S3 key id",
-      "value": "replace_with_key_id"     
+      "value": "replace_with_key_id"
     },
     "AWS_SECRET_ACCESS_KEY": {
       "description": "AWS S3 access key",
-      "value": "replace_with_key"     
+      "value": "replace_with_key"
     }
   },
   "image": "heroku/python",
