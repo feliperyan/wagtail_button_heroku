@@ -6,7 +6,7 @@
     "Django",
     "Wagtail"
   ],
-  "website": "www.feliperyan.com",
+  "website": "http://www.feliperyan.com",
   "repository": "https://github.com/feliperyan/wagtail_button_heroku",
   "logo": "https://wagtail.io/static/img/wagtail.svg",
   "success_url": "/",
